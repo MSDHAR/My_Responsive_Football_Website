@@ -1,0 +1,184 @@
+
+
+/* common styles */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+
+body{
+    margin:0 auto;
+    padding: 0 auto;
+    Width:1440px;
+    Height: 3750px;
+    background-color:#FFFFFF ; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+
+    }
+
+
+    /*------ Header Style------- */
+
+.banner{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    height:677px;
+    margin-bottom: 30px;
+
+    }
+
+.banner-title{
+    width:485px;
+    height:230px;
+    font-size: 64px;
+    line-height: 80px; 
+    color: #FFFFFF;
+    margin:28px;
+    font-family: 'Niconne', cursive;
+    }
+
+.btn{
+    width:168px;
+    height:44px;
+    background-color: #E02C6D;
+    color:#FFFFFF;
+    margin-left: 26px;
+    }
+
+.btn a{
+    text-decoration: none;
+    color:#FFFFFF;
+    }
+
+
+.banner-picture img {
+    width:556.01px;
+    height:438;
+    transition: width 1s,hight 1s;
+   
+    }
+
+.banner-picture img:hover{
+    width:700px;
+    height:500px;
+    transform:rotateX(180deg)
+    }
+
+/* -----players album styles --------- */
+
+
+.album-container h1{
+    text-align: center;
+    margin-bottom: -13px;
+    color:rgb(156, 210, 30);
+   
+    /* margin-top: 10px; */
+    
+    }
+
+.players-album-frame{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px 0px;
+    margin:70px;
+    }
+.player-frame {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:330px;
+    height: 474px;
+    border:2px solid yellowgreen;
+    margin-left:25px;
+    padding :30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+    }
+
+.player-pic img{
+    width:300px;
+    height:256px;
+    margin:10px;
+    }
+.player-info h2 {
+    margin:10px;
+    }
+.player-info p{
+    margin:10px; 
+    }
+
+/*---- video gallery ----*/
+
+.container-heading{
+    text-align: center;
+    color:darkorange;
+    }
+.gallary-container{
+        display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    }
+
+/* ---Contact Form style---- */
+.contact-form-container{
+        display:flex;
+        justify-content: center;
+        margin-top: 30px;
+    
+    }
+.contact-form {
+        display:flex;
+        flex-direction: column;
+        background-color: mintcream;
+        margin-top:40px;
+        padding:30px;
+        border-radius: 5px;
+        box-shadow:2px 5px 10px rgb(230, 216, 29) ;
+    }
+.contact-form h2{
+        color:rgb(160, 160, 59)
+    }
+.contact-form input , button{
+        font-size: 1.5em;
+        margin-top: 20px;
+        border:1px solid lightgray;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+.contact-form button{
+        background-color: lightslategrey;
+        color:white;
+    }
+
+/*-------Footer style ---------*/
+.footer-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    }
+.footer-icon .fab{
+    height:32px;
+    width:32px;
+    font-size: 30px;
+    border-radius:50px;
+    padding:20px;
+    background-color: rgba(51, 11, 126, 0.383);
+    }
+.copyright p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom:30px;
+    padding-bottom: 30px;
+
+    }
