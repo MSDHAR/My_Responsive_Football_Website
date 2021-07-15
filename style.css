@@ -33,14 +33,16 @@ body{
     margin-bottom: 30px;
 
     }
-
-.banner-title{
+.banner-info{
     width:485px;
     height:230px;
-    font-size: 64px;
-    line-height: 80px; 
-    color: #FFFFFF;
+    line-height: 80px;
     margin:28px;
+    }
+
+.banner-title{
+   font-size: 64px;
+    color: #FFFFFF;
     font-family: 'Niconne', cursive;
     }
 
